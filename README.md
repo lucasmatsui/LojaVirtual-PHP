@@ -1,5 +1,11 @@
  # Projeto PHP - loja virtual
- - Começo do projeto, apenas com um sistema de multlinguagem simples :heart:
+ - [x] Começo do projeto, apenas com um sistema de multlinguagem simples :heart:
+ - Futuramente terá todas as funcionalidades de um e-commerce como:
+ - [ ] Carrinho de compras
+ - [ ] Filtros
+ - [ ] Produto em Destaque
+ - [ ] Sistema de rating do produto
+ - [ ] integração com Pagseguro, Paypal, boleto direto e muito mais :D
 
  ## Para funcionar
  - Vá ate o arquivo <b>config.php</b> e defina a sua url padrão, se for diferente dessa, e também altere as configurações de Banco de dados se for necessário.
