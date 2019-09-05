@@ -1,5 +1,7 @@
  # Projeto PHP - loja virtual
+ 
  - [x] Começo do projeto, apenas com um sistema de multlinguagem simples :heart:
+ - Usando estrutura MVC.
  - Futuramente terá todas as funcionalidades de um e-commerce como:
  - [ ] Carrinho de compras
  - [ ] Filtros
