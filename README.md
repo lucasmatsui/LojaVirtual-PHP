@@ -3,7 +3,7 @@
 
  ## Para funcionar
  - Vá ate o arquivo <b>config.php</b> e defina a sua url padrão, se for diferente dessa, e também altere as configurações de Banco de dados se for necessário.
- - Verificar se o seu <b>httpd.conf</> está descomentado a linha LoadModule rewrite_module modules/mod_rewrite.so para funcionar o conceito de URL amigável.
+ - Verificar se o seu <b>httpd.conf</b> está descomentado a linha LoadModule rewrite_module modules/mod_rewrite.so para funcionar o conceito de URL amigável.
  
  
 ### Preview
