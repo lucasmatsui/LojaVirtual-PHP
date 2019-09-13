@@ -1,5 +1,5 @@
 <?php
-class homeController extends controller {
+class homeController extends Controller {
 
 	private $user;
 
@@ -9,6 +9,10 @@ class homeController extends controller {
 
     public function index() {
         $dados = array();
+
+        $products = new Products();
+
+        $dados['list'] = $products->getList();
 
         $this->loadTemplate('home', $dados);
     }

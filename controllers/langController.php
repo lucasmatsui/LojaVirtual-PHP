@@ -1,7 +1,5 @@
 <?php
-class langController extends controller {
-
-	private $user;
+class langController extends Controller {
 
     public function __construct() {
         parent::__construct();

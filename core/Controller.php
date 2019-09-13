@@ -1,5 +1,5 @@
 <?php
-class controller {
+class Controller {
 
 	protected $db;
 	protected $lang;
