@@ -34,7 +34,7 @@ class Products extends Model {
     $sql = $this->db->prepare($sql);
     $sql->bindValue(":id", $id);
     $sql->execute();
-
+    
     if($sql->rowCount() > 0) {
 
       $array = $sql->fetchAll();
