@@ -17,5 +17,7 @@
  
  
 ### Preview
-![lojavirtual](https://user-images.githubusercontent.com/31348487/64361007-0d0c9e00-cfe2-11e9-9a6f-70e7582a552e.png)
+![LojaVirtualNew](https://user-images.githubusercontent.com/31348487/65206580-44109400-da65-11e9-84e9-1af04125b986.png)
+
+
 
