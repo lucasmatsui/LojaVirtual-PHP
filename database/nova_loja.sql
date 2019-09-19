@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: localhost
--- Generation Time: Sep 13, 2019 at 10:15 PM
+-- Generation Time: Sep 19, 2019 at 03:42 AM
 -- Server version: 10.4.6-MariaDB
 -- PHP Version: 7.1.31
 
@@ -135,10 +135,10 @@ CREATE TABLE `products` (
 --
 
 INSERT INTO `products` (`id`, `id_category`, `id_brand`, `name`, `description`, `stock`, `price`, `price_from`, `rating`, `featured`, `sale`, `bestseller`, `new_product`, `options`) VALUES
-(1, 1, 1, 'Monitor 21 polegadas', 'Alguma descrição do produto', 10, 499, 599, 0, 0, 0, 0, 0, NULL),
+(1, 1, 1, 'Monitor 21 polegadas', 'Alguma descrição do produto', 10, 499, 599, 0, 0, 0, 1, 1, NULL),
 (2, 1, 2, 'Monitor 18 polegadas', 'Alguma outra descrição', 10, 399, 999, 0, 0, 0, 0, 0, NULL),
-(3, 1, 2, 'Monitor 19 polegadas', 'Alguma outra descrição', 10, 599, 699, 0, 0, 0, 0, 0, NULL),
-(4, 1, 3, 'Monitor 17 polegadas', 'Alguma outra descrição', 10, 799, 900, 0, 0, 0, 0, 0, NULL),
+(3, 1, 2, 'Monitor 19 polegadas', 'Alguma outra descrição', 10, 699, 0, 0, 0, 0, 0, 1, NULL),
+(4, 1, 3, 'Monitor 17 polegadas', 'Alguma outra descrição', 10, 799, 900, 0, 0, 1, 1, 0, NULL),
 (5, 1, 1, 'Monitor 20 polegadas', 'Alguma outra descrição', 10, 299, 499, 0, 0, 0, 0, 0, NULL);
 
 -- --------------------------------------------------------
