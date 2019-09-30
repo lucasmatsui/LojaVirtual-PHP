@@ -1,15 +1,15 @@
 <?php
 class Products extends Model {
 
-  public function getList() {
+  public function getList($offset = 0, $limit = 2) {
     $array = array();
 
     $sql = "SELECT *,
-    (select brands.name from brands where brands.id = products.id_brand)
+    ( select brands.name from brands where brands.id = products.id_brand)
       as brand_name,
-    (select categories.name from categories where categories.id = products.id_category)
+    ( select categories.name from categories where categories.id = products.id_category)
       as category_name
-    FROM products";
+    FROM products LIMIT $offset, $limit";
     $sql = $this->db->query($sql);
 
     if($sql->rowCount() > 0) {
@@ -25,6 +25,14 @@ class Products extends Model {
     }
 
     return $array;
+  }
+
+  public function getTotal() { 
+    $sql = "SELECT COUNT(*) as c FROM products";
+    $sql = $this->db->query($sql);
+    $sql = $sql->fetch();
+
+    return $sql['c'];
   }
 
   public function getImagesByProductId($id) {

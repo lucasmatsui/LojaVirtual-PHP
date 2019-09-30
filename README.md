@@ -3,6 +3,7 @@
  - [x] Começo do projeto, apenas com um sistema de multlinguagem simples :heart:
  - Usando estrutura MVC.
  - [x] Tags de produtos (selo de Mais vendido, Promoção etc...).
+ - [x] Páginação da Home.
  - Futuramente terá todas as funcionalidades de um e-commerce como:
  - [ ] Carrinho de compras
  - [ ] Filtros
@@ -17,7 +18,8 @@
  
  
 ### Preview
-![LojaVirtualNew](https://user-images.githubusercontent.com/31348487/65206580-44109400-da65-11e9-84e9-1af04125b986.png)
+![LojaVirtualNew](https://user-images.githubusercontent.com/31348487/65918728-bf9d0a00-e3b0-11e9-9d88-2363a01fe95c.png)
+
 
 
 
